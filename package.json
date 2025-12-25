@@ -1,25 +1,16 @@
 {
   "name": "dashboard-and-landing-page",
-  "version": "1.0.0",
-  "description": "first project using tailwind css. making landing and dashboard using tailwind",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PARDEEP-111/Dashboard-and-landing-page.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PARDEEP-111/Dashboard-and-landing-page/issues"
-  },
-  "homepage": "https://github.com/PARDEEP-111/Dashboard-and-landing-page#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.23",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18"
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.2.4"
   }
 }
