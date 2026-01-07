@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
 </head>
-<body>
-    <h1 class="bg-amber-400 border-2" >i am h1</h1>
+
+<body class="flex flex-col justify-between h-[100vh] w-[100vw] border-2">
+
+    <nav class="w-[100%] border-2 gap-6 h-[15vh] flex items-center justify-center">
+        <input type="search" placeholder="search" name="" class=" h-[40px] w-[80vw] border-2">
+        <button>btn 1</button>
+        <button>btn 2 </button>
+    </nav>
+    <div class=" flex justify-start items-start  ">
+
+        <sidebar class="w-[15vw] h-[85vh] border-2 ">
+            i am sidebar
+        </sidebar>
+
+        <main class="w-[85vw] h-[85vh] border-2 ">
+            <div class=" h-[100%] w-[100%] gap-5 flex flex-col justify-start m-[10px] items-center">
+                <div class="flex justify-center gap-5 items-center border-2  w-[60%]">
+                    <div class=" border-2  "> i am a card</div>
+                    <div class=" border-2 "> i am a card</div>
+                </div>
+                <div class="flex border-2 gap-5 justify-center items-center  w-[60%]">
+                    <div class=" border-2  "> i am a card</div>
+                    <div class=" border-2  "> i am a card</div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
 
     <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
